@@ -18,7 +18,7 @@
             }
         ]
     },
-    "icon": "./icons/super-dark-mirella-theme.png",
+    "icon": "icons/super-dark-mirella-theme.png",
     "author": {
         "name": "Gamaliel Abanto",
         "email": "gamaliel.aq96@gmail.com",
