@@ -1,0 +1,21 @@
+{
+    "name": "super-dark-mirella-theme",
+    "displayName": "code/super-dark-mirella-theme",
+    "description": "Super Dark Mirella Theme",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.66.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Super Dark Mirella Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/super-dark-mirella-theme.json"
+            }
+        ]
+    }
+}
