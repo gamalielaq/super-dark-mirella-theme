@@ -17,5 +17,16 @@
                 "path": "./themes/super-dark-mirella-theme.json"
             }
         ]
-    }
+    },
+    "icon": "./icons/super-dark-mirella-theme.png",
+    "author": {
+        "name": "Gamaliel Abanto",
+        "email": "gamaliel.aq96@gmail.com",
+        "url": "https://www.linkedin.com/in/gamalielaq/"
+    },
+    "repository": {
+        "url": "https://github.com/gamalielaq/super-dark-mirella-theme.git",
+        "type": "git"
+    },
+    "publisher": "code-gamalielaq"
 }
