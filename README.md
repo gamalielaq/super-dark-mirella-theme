@@ -1,6 +1,7 @@
 # README
-## This is the README for your extension "super-dark-mirella-theme"
 
 # Super Dark Mirella Theme
+
+### This is an extension for visual studio code "super-dark-mirella-theme"
 
 * Author: Gamaliel Humberto Abanto Quiroz
