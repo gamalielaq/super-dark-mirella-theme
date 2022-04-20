@@ -1,6 +1,6 @@
 # Super Dark Mirella Theme
 
-### This is an extension for visual studio code [super-dark-mirella-theme](https://github.com/gamalielaq/super-dark-mirella-theme.git)
+### This is an extension for visual studio code [super-dark-mirella-theme](https://marketplace.visualstudio.com/items?itemName=dark-code.super-dark-mirella-theme)
 
 #### you can install it for your angular, reactjs or other typescript or javascript projects.
 
