@@ -6,16 +6,16 @@
 
 ### Publish [Super Dark Mirella Theme](https://bit.ly/3Mecks3)
 
-# Angular
+### Angular
 ![mild contrast preview](https://i.imgur.com/4wT0eGQ.png)
 
-# ReactJS
+### ReactJS
 ![mild contrast preview](https://i.imgur.com/lndcUs2.png)
 
-# HTML
+### HTML
 ![mild contrast preview](https://i.imgur.com/pP4eAn4.png)
 
-# CSS
+### CSS
 ![mild contrast preview](https://i.imgur.com/WbhK81I.png)
 
 
