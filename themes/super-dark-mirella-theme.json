@@ -9,7 +9,7 @@
 	"colors": {
 		"foreground": "#ffffff",
 		"selection.background": "#7580B850",
-		"sideBar.background": "#242425",
+		"sideBar.background": "#131212",
 		"sideBarSectionHeader.foreground": "#eeffff",
 		"editor.background": "#161515",
 		"editorLineNumber.activeForeground": "#eeffff",
@@ -213,7 +213,6 @@
 		{
 			"name": "HTML Tag names",
 			"scope": [
-				"entity.name.tag support.class.component",
 				"meta.tag.other.html",
 				"meta.tag.other.js",
 				"meta.tag.other.tsx",
@@ -227,6 +226,25 @@
 			"settings": {
 				"foreground": "#e04963",
 				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "HTML Tag components",
+			"scope": [
+				"entity.name.tag support.class.component.js"
+			],
+			"settings": {
+				"foreground": "#34c0a4"
+			}
+		},
+		{
+			"name": "embedded punctuation",
+			"scope": [
+				"punctuation.section.embedded.begin.js",
+				"punctuation.section.embedded.end.js"
+			],
+			"settings": {
+				"foreground": "#4EC9B0"
 			}
 		},
 		{
@@ -972,13 +990,22 @@
 			"scope": [
 				"variable.other.object.js",
 				"variable.other.object.jsx",
-				"meta.object-literal.key.js",
 				"meta.object-literal.key.jsx",
 				"variable.object.property.js",
 				"variable.object.property.jsx"
 			],
 			"settings": {
-				"foreground": "#9CDCFE"
+				"foreground": "#4FC1FF"
+			}
+		},
+		{
+			"name": "JavaScript[React] Variable property",
+			"scope": [
+				"variable.other.object.property.js",
+				"variable.other.object.property.jsx"
+			],
+			"settings": {
+				"foreground": "#4FC1FF"
 			}
 		},
 		{
@@ -1348,7 +1375,6 @@
 				"variable.other.readwrite.alias.tsx",
 				"variable.other.readwrite.ts",
 				"variable.other.readwrite.tsx",
-				"variable.other.object.ts",
 				"variable.other.object.tsx",
 				"variable.object.property.ts",
 				"variable.object.property.tsx",
@@ -1359,6 +1385,15 @@
 			],
 			"settings": {
 				"foreground": "#9CDCFE"
+			}
+		},
+		{
+			"name": "TypeScript[React] Variables and Object Properties",
+			"scope": [
+				"variable.other.object.ts"
+			],
+			"settings": {
+				"foreground": "#4FC1FF"
 			}
 		},
 		{
