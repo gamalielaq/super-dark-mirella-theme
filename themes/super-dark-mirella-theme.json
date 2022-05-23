@@ -17,22 +17,6 @@
 		"editorWarning.foreground": "#FFCA28",
 		"editorMarkerNavigationError.background": "#EF5350",
 		"editorMarkerNavigationWarning.background": "#FFCA28",
-		"terminal.ansiWhite": "#ffffff",
-		"terminal.ansiBlack": "#676E95",
-		"terminal.ansiBlue": "#82AAFF",
-		"terminal.ansiCyan": "#89DDFF",
-		"terminal.ansiGreen": "#a9c77d",
-		"terminal.ansiMagenta": "#C792EA",
-		"terminal.ansiRed": "#ff5572",
-		"terminal.ansiYellow": "#FFCB6B",
-		"terminal.ansiBrightWhite": "#ffffff",
-		"terminal.ansiBrightBlack": "#676E95",
-		"terminal.ansiBrightBlue": "#82AAFF",
-		"terminal.ansiBrightCyan": "#89DDFF",
-		"terminal.ansiBrightGreen": "#C3E88D",
-		"terminal.ansiBrightMagenta": "#C792EA",
-		"terminal.ansiBrightRed": "#ff5572",
-		"terminal.ansiBrightYellow": "#FFCB6B",
 		"debugToolBar.background": "#292D3E",
 		"gitDecoration.ignoredResourceForeground": "#69709890",
 		"breadcrumb.foreground": "#6c739a",
@@ -154,6 +138,102 @@
 				"foreground": "#c792ea"
 			}
 		},
+
+		{
+			"name": "Keyword",
+			"scope": [
+				"keyword.other.import.java",
+				"meta.import.java",
+				"keyword.other.package.java",
+				"storage.modifier.java",
+				"storage.modifier.extends.java",
+				"source.java"
+			],
+			"settings": {
+				"foreground": "#569CD6"
+			}
+		},
+
+		{
+			"name": "Keyword",
+			"scope": [
+				"punctuation.bracket.angle.java",
+				"punctuation.separator.delimiter.java",
+				"punctuation.terminator.java"
+			],
+			"settings": {
+				"foreground": "#FFF"
+			}
+		},
+
+
+		{
+			"name": "Anotation java",
+			"scope": [
+				"storage.type.annotation.java"
+			],
+			"settings": {
+				"foreground": "#BBBBBB"
+			}
+		},
+
+		{
+			"name": "Anotation java",
+			"scope": [
+				"punctuation.definition.annotation.java"
+			],
+			"settings": {
+				"foreground": "#fff"
+			}
+		},
+
+		{
+			"name": "Modifier Import",
+			"scope": [
+				"storage.modifier.import.java",
+				"meta.import.java",
+				"storage.type.annotation.java",
+				"keyword.other.import.java"
+			],
+			"settings": {
+				 "fontStyle": "normal" 
+			}
+		},
+
+		{
+			"name": "object propert",
+			"scope": [
+				"variable.other.object.property.java"
+			],
+			"settings": {
+				"foreground": "#4FC1FF"
+			}
+		},
+
+		{
+			"name": "object propert",
+			"scope": [
+				"constant.language.java"
+			],
+			"settings": {
+				"foreground": "#DDDCDC"
+			}
+		},
+
+		{
+			"name": "object propert",
+			"scope": [
+				"variable.other.definition.java",
+				"meta.method-call.java",
+				"variable.parameter.java",
+				"meta.method.java",
+				"meta.method.body.java"
+			],
+			"settings": {
+				"foreground": "#9CDCFE"
+			}
+		},
+
 		{
 			"name": "Storage",
 			"scope": [
@@ -169,6 +249,21 @@
 				"foreground": "#569CD6"
 			}
 		},
+		{
+			"name": "Storage",
+			"scope": [
+				"storage",
+				"storage.type",
+				"storage.type.property.java",
+				"variable.other.object.java",
+				"meta.class meta.method.declaration meta.var.expr storage.type.java"
+			],
+			"settings": {
+				"foreground": "#4EC9B0"
+			}
+		},
+
+
 		{
 			"name": "Class name",
 			"scope": [
@@ -316,6 +411,7 @@
 			"name": "Double-Slashed Comment",
 			"scope": [
 				"comment.line.double-slash",
+				"comment.block.java",
 				"comment.line.scss"
 			],
 			"settings": {
