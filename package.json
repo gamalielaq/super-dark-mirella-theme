@@ -2,7 +2,7 @@
     "name": "super-dark-mirella-theme",
     "displayName": "code/super-dark-mirella-theme",
     "description": "Super Dark Mirella Theme",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "engines": {
         "vscode": "^1.66.0"
     },
