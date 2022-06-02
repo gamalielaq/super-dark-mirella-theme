@@ -1,0 +1,8 @@
+comands
+
+npm i -g yo generator-code 
+npm i vsce -g
+
+vsce package
+
+https://marketplace.visualstudio.com/manage/publishers/dark-code
