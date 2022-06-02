@@ -263,7 +263,26 @@
 			}
 		},
 
+		{
+			"name": "storage modifier java",
+			"scope": [
+				"storage.modifier.implements.java"
+			],
+			"settings": {
+				"foreground": "#C792EA"
+			}
+		},
+		{
+			"name": "string quoted double java",
+			"scope": [
+				"constant.other.key.java"
+			],
+			"settings": {
+				"foreground": "#bcbcbc"
+			}
+		},
 
+		
 		{
 			"name": "Class name",
 			"scope": [
@@ -1063,6 +1082,21 @@
 				"foreground": "#d1d1d1"
 			}
 		},
+
+
+		{
+			"name": "storage modifier ts",
+			"scope": [
+				"storage.modifier.ts",
+				"storage.type.ts",
+				"storage.type.class.ts",
+				"storage.type.interface.ts"
+			],
+			"settings": {
+				"foreground": "#569CD6"
+			}
+		},
+
 		{
 			"name": "JavaScript[React] Variable Other Object",
 			"scope": [
